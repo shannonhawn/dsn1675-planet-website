@@ -1,10 +1,15 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust:100%;
-
   font-family: sans-serif;
 }
 
@@ -21,6 +26,49 @@ body{
   display:block;
 }
 
-.nav{
+header{
   background-color:grey;
 }
+
+h1{
+  margin:0;
+  text-align:center;
+}
+
+li{
+  width:100%;
+}
+
+ol{
+  padding:0;
+  margin-top:2em;
+  list-style-type:none;
+}
+
+a{
+  color:purple;
+}
+
+@media only screen and (min-width: 20em{
+
+
+
+
+
+}
+
+@media only screen and (min-width: 40em;{
+
+
+
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+/*------------------------------------*/
