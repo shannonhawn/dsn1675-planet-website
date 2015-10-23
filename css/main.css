@@ -114,6 +114,10 @@ a{
 
 /*-------------Moon----------------------*/
 
+.grid-venus{
+text-align: left;
+}
+
 .moons-venus p{
   text-align:center;
   margin:0;
