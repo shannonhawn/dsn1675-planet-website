@@ -46,27 +46,43 @@ ol{
 }
 
 a{
-  color:purple;
+  color:blue;
 }
 
-@media only screen and (min-width: 20em{
+@media only screen and (min-width: 20em){
 
+  li {
+    width:inherit;
+    display:inline-block;
+    padding: 0 0em;
+  }
 
-
-
-
+  ol {
+    padding-top:0;
+    text-align: left;
+    margin-top: 0;
+  }
 }
 
-@media only screen and (min-width: 40em;{
+@media only screen and (min-width: 40em){
 
+  h1 {
+    text-align:left;
+  }
 
-
-
+  ol{
+    padding-top:0;
+    text-align: left;
+    margin-top: 2em;
+  }
 }
 
 
 @media only screen and (min-width: 60em) {
 
+    ol{
+      margin: 2em 0 0 0;
+    }
 
 
 }
