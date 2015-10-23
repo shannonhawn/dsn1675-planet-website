@@ -37,8 +37,6 @@ h1{
 
 li{
   width:100%;
-  float:left;
-  text-align:center;
 }
 
 ol{
@@ -46,7 +44,6 @@ ol{
   padding:0;
   margin-top:2em;
   list-style-type:none;
-  width:100%;
   text-align:center;
 }
 
@@ -65,7 +62,6 @@ a{
 
   ol {
     text-align: center;
-    padding-top: 2em;
   }
 }
 
@@ -73,6 +69,7 @@ a{
 
   h1 {
     text-align:left;
+    margin-bottom: 0.5em;
   }
 
   ol{
@@ -100,19 +97,45 @@ a{
   padding: 0 2em;
 }
 
-
-/*-------------Moon----------------------*/
-
-
-@media only screen and (min-width: 20em){
-
+.photos p{
+  margin-top:0;
 }
 
 
+/*-------------Moon----------------------*/
+
+.moons-venus p{
+  text-align:center;
+  margin:0;
+}
+
+.moons{
+  margin-bottom:.5em;
+  text-align: left;
+}
+
+.moons a{
+  color: black;
+}
+
+.moons ol{
+  margin-bottom:1em;
+}
+
+/*-----20em-----*/
+@media only screen and (min-width: 20em){
+.moons ol{
+  margin: 1em 0 1em 0;
+}
+
+
+}
+
+/*-----40em-----*/
 @media only screen and (min-width: 40em){
 }
 
 
-
+/*-----60em-----*/
 @media only screen and (min-width: 60em) {
 }
