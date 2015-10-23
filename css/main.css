@@ -36,7 +36,7 @@ h1{
 }
 
 li{
-  text-align:center;
+  text-align:left;
 }
 
 ol{
@@ -45,7 +45,7 @@ ol{
   padding:0;
   margin-top:2em;
   list-style-type:none;
-  text-align:center;
+  text-align:left;
 }
 
 a{
@@ -56,6 +56,11 @@ a{
 
 /*-----Small-----*/
 @media only screen and (min-width: 20em){
+
+  h1 {
+    text-align:center;
+    margin-bottom: 0.5em;
+  }
 
   li {
     width:inherit;
@@ -72,9 +77,10 @@ a{
 @media only screen and (min-width: 40em){
 
   h1 {
-    text-align:left;
+    text-align:center;
     margin-bottom: 0.5em;
   }
+
 
   ol{
     padding-top:0;
@@ -124,6 +130,7 @@ a{
 
 .moons ol{
   margin-bottom:1em;
+  text-align:left;
 }
 
 /*-----Small-----*/
@@ -145,10 +152,4 @@ a{
 .nav-ul{
   width:100%;
 }
-
-}
-
-
-/*-----Large-----*/
-@media only screen and (min-width: 60em) {
 }
