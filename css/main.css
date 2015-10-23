@@ -37,6 +37,8 @@ h1{
 
 li{
   width:100%;
+  float:left;
+  text-align:center;
 }
 
 ol{
@@ -44,10 +46,13 @@ ol{
   padding:0;
   margin-top:2em;
   list-style-type:none;
+  width:100%;
+  text-align:center;
 }
 
 a{
   color:blue;
+  text-decoration:none;
 }
 
 @media only screen and (min-width: 20em){
@@ -60,6 +65,7 @@ a{
 
   ol {
     text-align: center;
+    padding-top: 2em;
   }
 }
 
@@ -82,8 +88,31 @@ a{
     ol{
       margin: 2em 0 0 0;
     }
+}
 
+/*-------------Venus----------------------*/
+
+.venus-1{
+  margin-bottom: 1em;
+}
+
+.photos{
+  padding: 0 2em;
+}
+
+
+/*-------------Moon----------------------*/
+
+
+@media only screen and (min-width: 20em){
 
 }
 
-/*------------------------------------*/
+
+@media only screen and (min-width: 40em){
+}
+
+
+
+@media only screen and (min-width: 60em) {
+}
