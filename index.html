@@ -7,7 +7,7 @@
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/exploration.css" rel="stylesheet">
-  <link href="css/moons.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -28,16 +28,21 @@
   </nav>
 </header>
 
+<main>
+
 <div>
-  <p class="subheader giga text-center pad-top-half pad-bottom-half push"> Venus, the second planet in the Solar System.</p>
+  <p class="push-0"> Venus, the second planet in the Solar System.</p>
 </div>
 
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      <img class="img-flex" src="images/venus.jpg" alt="Image of planet Venus">
-  </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      <img class="img-flex">Venus</h2>
+<div class="grid"
+<div class="unit push xs-1 s-1 m-1-2 l-1-3">
+    <div class="embed embed--1by1">
+      <img class=embed__item planet-img src="images/venus.jpg" alt="Image of planet Venus">
+    </div>
+</div>
+
+  <div class="unit gutter xs-1 s-1 m-1-2 l-2-3">
+      <h2 class="exa">Venus</h2>
         <p>Venus is the second planet from the Sun, orbiting it every 224.7
         Earth days. Venus is a terrestrial planet and is sometimes called
         Earth's "sister planet" because of their similar size, gravity,
@@ -45,22 +50,23 @@
         different from Earth in other respects.</p>
     </div>
 </div>
-</div>
+
 
 <div class="light grey">
 
-  <div class="grid-top">
-      <div class="unit xs-1 s-1 m-1-3 1-1-3 grid-top">
-        <img class="img-flex" src="images/venus-1.jpg" alt="Venus surface image">
-        <p class=body-copy pad-top-half pad-bottom>
-  Global radar view of the surface from Magellan radar imaging
+  <div class="grid">
+    <div class="unit push xs-1 s-1 m-1-3 1-1-3 grid-top">
+      <div class="embed embed--1by1">
+        <img class="embed__item planet-img" src="images/venus-1.jpg" alt="Venus surface image">
+      </div>
+      <p>Global radar view of the surface from Magellan radar imaging
        between 1990 and 1994.</p>
   </div>
 </div>
-
+</div>
 <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
   <div class="img">
-    <img class="img-flex" src="images/venus-2.jpg" alt="Venus crater">
+    <img class="embed embed--3by4" src="images/venus-2.jpg" alt="Venus crater">
     <p class="body-copy pad-top-half pad-bottom">Impact craters on the surface of Venus.</figcaption>
   </p>
 </div>
