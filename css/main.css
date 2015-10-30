@@ -9,7 +9,8 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust:100%;
+  text-size-adjust: 100%;
+  background-color:#fff;
   font-family: sans-serif;
 }
 
@@ -25,13 +26,13 @@ body{
 a,
 a:link,
 a:visited{
-  color:blue;
+  color:#0074D9;
   text-decoration:none;
 }
 
-.img-flex{
-  width:100%;
+.title{
   display:block;
+  text-align:center;
 }
 
 .title a{
@@ -56,26 +57,37 @@ a:visited{
   color: #fff;
 }
 
-header{
-  background-color:lightgrey;
+.section-dark{
+  background-color:#ccc;
+}
+
+.section-mid{
+  background-color:#e2e2e2;
+}
+
+.section{
+  background-color:#efefef;
 }
 
 h1{
-  margin:0;
+  padding-top:1rem;
+  padding-bottom:1rem;
   text-align:center;
+  color:black;
 }
 
 li{
   text-align:left;
 }
 
-ol{
-  width:100%;
-  margin-bottom:1em;
-  padding:0;
-  margin-top:2em;
+ul{
+  display:block;
   list-style-type:none;
-  text-align:left;
+}
+
+.img-flex{
+  width:100%;
+  display:block;
 }
 
 
@@ -104,6 +116,8 @@ ol{
     text-align: center;
   }
 }
+
+
 
 /*-----Medium-----*/
 @media only screen and (min-width: 38em){
