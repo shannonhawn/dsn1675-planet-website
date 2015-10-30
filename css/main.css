@@ -176,7 +176,7 @@ text-align: left;
 }
 
 /*-----Small-----*/
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 25em){
 
 .moons ol{
   margin: 1em 0 1em 0;
@@ -189,7 +189,7 @@ text-align: left;
 }
 
 /*-----Medium-----*/
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 38em){
 
 .nav-ul{
   width:100%;
