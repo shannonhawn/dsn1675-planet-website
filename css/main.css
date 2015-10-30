@@ -20,6 +20,12 @@ html {
 box-sizing: inherit;
 }
 
+
+.img-flex{
+  width:100%;
+  display:block;
+}
+
 body{
   margin:0;
 }
@@ -31,84 +37,79 @@ h1 {
   color: black;
 }
 
-.img-flex{
-  width:100%;
-  display:block;
+header{
+  background-color:#cccccc;
+}
+
+.subheader{
+  background-color:#e2e2e2;
 }
 
 
+ul{
+  list-style:none;
+  display:block;
+}
 
-a,
-a:link,
-a:visited{
+li{
+  float:left;
+  padding-left:2em;
+}
+
+
+a{
   color:#0074D9;
   text-decoration:none;
 }
 
-.title{
-  display:block;
-  text-align:center;
+a:hover{
+  color:white;
+  background-color:blue;
 }
 
-.title a{
-  color:#000;
-  text-decoration:none;
+footer a:hover{
+  color:#fff;
 }
 
-.nav{
-  padding:0;
-  list-style-type:none;
+p,
+h2,
+dd,
+dt{
+  padding-left:.75rem;
+  padding-right:.75rem;
 }
 
-.nav{
-  padding:0;
-  list-style-type: none;
-}
-
-.nav a{
-  display:block;
-  color:blue;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active,
-.nav a.current {
-  background-color:#0074D9;
-  color: #fff;
-}
-
-a{
-  text-decoration:none;
-  color:blue;
-}
-
-.section-dark{
-  background-color:#ccc;
-}
-
-.section-mid{
+.lightgrey{
   background-color:#e2e2e2;
 }
 
-.section{
-  background-color:#efefef;
+.grey{
+background-color:#cccccc;
+}
+
+footer a:hover{
+  background-color: #fff;
 }
 
 
 
+/*-------MOON------*/
 
-/*-------------*/
+footer {
+  background-color: #e2e2e2;
+}
+
+/*------------media---------------*/
+
 @media only screen and (min-width: 20em){
 
 
-.nav li{
-  display:inline-block;
-  width:inherit;
+.nav{
+  text-align:center;
 }
 
-ol{
-  text-align:center;
+.nav li{
+  display:inline-block;
 }
 }
 
@@ -137,52 +138,17 @@ ol{
   margin-top:0;
 }
 
-@media only screen and (min-width: 38em) {
+/*---------Moons-------*/
 
 
-
-/*-------------Moon----------------------*/
-
-.grid-venus{
-text-align: left;
-}
-
-.moons-venus p{
-  text-align:center;
-  margin:0;
-}
-
-.moons{
-  margin-bottom:.5em;
-  text-align: left;
-}
-
-.moons-venus a{
-  color: black;
-}
-
-.moons ol{
-  margin-bottom:1em;
-  text-align:left;
-}
-
-/*-----Small-----*/
-@media only screen and (min-width: 25em){
-
-.moons ol{
-  margin: 1em 0 1em 0;
-}
-
-.moons li{
-  margin:0;
-  padding: 0 0.25em;
-}
-}
-
-/*-----Medium-----*/
 @media only screen and (min-width: 38em){
 
 .nav-ul{
+  display:inline-block;
   width:100%;
+}
+
+.nav-ul li{
+  float:left;
 }
 }
