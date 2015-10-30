@@ -24,10 +24,19 @@ body{
   margin:0;
 }
 
+h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: black;
+}
+
 .img-flex{
   width:100%;
   display:block;
 }
+
+
 
 a,
 a:link,
