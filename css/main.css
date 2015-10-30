@@ -10,10 +10,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color:#fff;
-
   font-family: sans-serif;
+  line-height:1.3;
+  font-size:100%;
 }
 
 *,*::before, *::after{
@@ -22,7 +22,11 @@ box-sizing: inherit;
 
 body{
   margin:0;
-  padding:0;
+}
+
+.img-flex{
+  width:100%;
+  display:block;
 }
 
 a,
@@ -82,23 +86,22 @@ a{
   background-color:#efefef;
 }
 
-.img-flex{
-  width:100%;
-  display:block;
-}
 
 
 
-@media only screen and (min-width: 25em){
+/*-------------*/
+@media only screen and (min-width: 20em){
 
-.nav{
-  text-align: center;
-}
 
 .nav li{
   display:inline-block;
+  width:inherit;
 }
 
+ol{
+  text-align:center;
+}
+}
 
 
 /*-----Medium-----*/
@@ -110,13 +113,6 @@ a{
 }
 
 
-/*-----Large-----*/
-@media only screen and (min-width: 60em) {
-
-    ol{
-      margin: 2em 0 0 0;
-    }
-}
 
 /*-------------Venus----------------------*/
 
@@ -124,13 +120,16 @@ a{
   margin-bottom: 1em;
 }
 
-.photos{
+.figure{
   padding: 0 2em;
 }
 
 .photos p{
   margin-top:0;
 }
+
+@media only screen and (min-width: 38em) {
+
 
 
 /*-------------Moon----------------------*/
