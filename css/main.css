@@ -56,12 +56,39 @@ a:visited{
   color: #fff;
 }
 
+header{
+  background-color:lightgrey;
+}
 
+h1{
+  margin:0;
+  text-align:center;
+}
+
+li{
+  text-align:left;
+}
+
+ol{
+  width:100%;
+  margin-bottom:1em;
+  padding:0;
+  margin-top:2em;
+  list-style-type:none;
+  text-align:left;
+}
 
 
 /*-----Small-----*/
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 25em){
 
+.nav{
+  text-align: center;
+}
+
+.nav li{
+  display:inline-block;
+}
   h1 {
     text-align:center;
     margin-bottom: 0.5em;
@@ -79,7 +106,13 @@ a:visited{
 }
 
 /*-----Medium-----*/
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 38em){
+
+.title,
+.nav{
+  text-align:left;
+}
+
 
   h1 {
     text-align:center;
