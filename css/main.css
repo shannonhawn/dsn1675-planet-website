@@ -13,13 +13,14 @@ h1 {
   text-align: center;
 }
 
-a{
+nav a{
+  display:block;
   color:#0074D9;
   text-decoration:none;
   margin:0 0.6rem;
 }
 
-a:hover{
+nav a:hover{
   color:white;
   background-color:blue;
 }
