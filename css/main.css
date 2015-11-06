@@ -1,3 +1,17 @@
+p,
+h2,
+dd,
+dt{
+  padding-left:.75rem;
+  padding-right:.75rem;
+}
+
+header{
+  background-color:#cccccc;
+}
+
+/*----NAV----*/
+
 h1 {
   text-align: center;
   padding-bottom: 1rem;
@@ -5,12 +19,83 @@ h1 {
   color: black;
 }
 
-header{
-  background-color:#cccccc;
+a{
+  color:#0074D9;
+  text-decoration:none;
 }
+
+a:hover{
+  color:white;
+  background-color:blue;
+}
+
+.nav{
+  text-align:center;
+}
+
+.nav li{
+  display:inline-block;
+}
+
+.lightgrey{
+  background-color:#e2e2e2;
+}
+
+.grey{
+background-color:#cccccc;
+}
+/*-media-*/
+@media only screen and (min-width: 38em){
+
+.nav-ul{
+  display:inline-block;
+  width:100%;
+}
+
+.nav-ul li{
+  float:left;
+}
+}
+
+/*----SUBHEADER----*/
 
 .subheader{
   background-color:#e2e2e2;
+}
+
+/*-------------Venus----------------------*/
+/*-media-*/
+@media only screen and (min-width: 38em) {
+.venus-1{
+  margin-bottom: 1em;
+}
+
+.figure{
+  padding: 0 2em;
+}
+
+.photos p{
+  margin-top:0;
+}
+}
+
+/*----MOONS----*/
+
+
+
+/*----EXPLORATION----*/
+
+
+
+/*----FOOTER----*/
+
+
+footer a:hover{
+  color:#fff;
+}
+
+footer {
+  background-color: #e2e2e2;
 }
 
 ul{
@@ -24,86 +109,8 @@ li{
 }
 
 
-a{
-  color:#0074D9;
-  text-decoration:none;
-}
-
-a:hover{
-  color:white;
-  background-color:blue;
-}
-
-footer a:hover{
-  color:#fff;
-}
-
-p,
-h2,
-dd,
-dt{
-  padding-left:.75rem;
-  padding-right:.75rem;
-}
-
-.lightgrey{
-  background-color:#e2e2e2;
-}
-
-.grey{
-background-color:#cccccc;
-}
-
-footer a:hover{
-  background-color: #fff;
-}
-
-
-
-/*-------MOON------*/
-
-footer {
-  background-color: #e2e2e2;
-}
-
-/*------------media---------------*/
-
 @media only screen and (min-width: 20em){
 
 
-.nav{
-  text-align:center;
-}
-
-.nav li{
-  display:inline-block;
-}
-}
-
 
 @media only screen and (min-width: 38em){
-
-.nav-ul{
-  display:inline-block;
-  width:100%;
-}
-
-.nav-ul li{
-  float:left;
-}
-}
-
-
-/*-------------Venus----------------------*/
-
-.venus-1{
-  margin-bottom: 1em;
-}
-
-.figure{
-  padding: 0 2em;
-}
-
-.photos p{
-  margin-top:0;
-}
