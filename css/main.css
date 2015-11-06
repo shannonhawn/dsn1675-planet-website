@@ -1,27 +1,22 @@
-p,
-h2,
-dd,
-dt{
-  padding-left:.75rem;
-  padding-right:.75rem;
-}
 
 header{
   background-color:#cccccc;
+}
+
+body{
+  margin:0;
 }
 
 /*----NAV----*/
 
 h1 {
   text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  color: black;
 }
 
 a{
   color:#0074D9;
   text-decoration:none;
+  margin:0 0.6rem;
 }
 
 a:hover{
@@ -35,6 +30,7 @@ a:hover{
 
 .nav li{
   display:inline-block;
+  width:inherit;
 }
 
 .lightgrey{
@@ -66,6 +62,7 @@ background-color:#cccccc;
 /*-------------Venus----------------------*/
 /*-media-*/
 @media only screen and (min-width: 38em) {
+
 .venus-1{
   margin-bottom: 1em;
 }
@@ -81,11 +78,30 @@ background-color:#cccccc;
 
 /*----MOONS----*/
 
+.moons dl{
+  padding-left:0.5rem;
+}
 
+.h1-moons{
+  text-align:center;
+  background-color: #e2e2e2;
+  margin-bottom:1.2rem;
+  padding-bottom:0.5rem;
+}
+
+.moons-discovery{
+  background-color:#eeeeee;
+}
+
+.moons-probe{
+  background-color:#e2e2e2;
+}
 
 /*----EXPLORATION----*/
 
-
+.exploration-h1 {
+  background-color: #e2e2e2;
+}
 
 /*----FOOTER----*/
 
@@ -111,6 +127,22 @@ li{
 
 @media only screen and (min-width: 20em){
 
+footer li{
+  padding:0;
+}
+
+
+  footer ul{
+    text-align:left;
+    padding-left:1.2rem;
+  }
+  }
 
 
 @media only screen and (min-width: 38em){
+
+footer ul{
+  padding-top:0.5rem;
+  padding-left:0;
+}
+}
